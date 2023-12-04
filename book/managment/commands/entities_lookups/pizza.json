@@ -1,0 +1,27 @@
+{
+    "pizza": [
+        {
+            " pizzaname": "маргарита",
+            " pizzaimg": "static/img/pizza-1.jpg",
+            "menu": "1",
+            "cost": "10000",
+            "description": "Сыр,Помидоры,соусы"
+        },
+
+        {
+            " pizzaname": "болонеза",
+            " pizzaimg": "static/img/pizza-2.jpg",
+            "menu": "2",
+            "cost": "10000",
+            "description": "Сыр,соусы"
+        },
+
+        {
+            "pizzaname": "Пипперони",
+            "pizzaimg": "static/img/pizza-3.jpg",
+            "menu": "3",
+            "cost": "10000",
+            "description": "Сыр,соусы,колбосы"
+        }
+    ]
+}

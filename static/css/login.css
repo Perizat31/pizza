@@ -1,0 +1,88 @@
+.register_container {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-image: linear-gradient(to top, #a8edea 0%, #fed6e3 100%);
+    background-attachment: fixed;
+
+
+}
+
+.register_inputs_list {
+    width: 500px;
+    min-height: 400px;
+    height: auto;
+    border-radius: 1px;
+    margin: 2% auto;
+    box-shadow: 0 9px 30px;
+    padding: 2%;
+    background-attachment:#5E6472;
+
+
+    
+}
+
+.register_input {
+    width: 470px;
+    height: 15px;
+  
+    margin-top: 2%;
+    padding: 15px;
+    
+    font-size: 16px;
+    font-family: 'Abel', sans-serif;
+    color: #5E6472;
+  
+    outline: none;
+    border: none;
+  
+    border-radius: 0px 5px 5px 0px;
+    transition: 0.2s linear;
+
+}
+
+.register_button {
+    color:beige;
+    border:0;
+    border-radius: 15px;
+    display: block;
+    margin: 15px auto; 
+    padding: 15px 45px;
+    width: 100%;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    opacity: 1;
+    visibility: visible;
+    background-color:#dfdfdf;
+    color: black;
+
+}
+
+.login__icon {
+    width: 35px;
+    height: 31px;
+    margin-inline-start: 50%;
+    margin-right: 100px;
+    color: black;
+}
+
+.href{
+    color:beige;
+    border:0;
+    border-radius: 15px;
+    display: block;
+    margin: 15px auto; 
+    padding: 15px 45px;
+    width: 80%;
+    font-size: 26px;
+    font-weight: bold;
+    cursor: pointer;
+    opacity: 7;
+    visibility: visible;
+    background-color:#dfdfdf;
+    color: black;
+}
+
+
+

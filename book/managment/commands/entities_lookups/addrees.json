@@ -1,0 +1,24 @@
+{
+    "Address": [
+        {
+            "cityname": "Караганды",
+            "streetname": "Назарбаева",
+            "housenumber": 56,
+            "flatnumber": 209
+        },
+
+        {
+            "cityname": "Алматы",
+            "streetname": "Бухар Жырау",
+            "housenumber": 50,
+            "flatnumber": 206
+        },
+
+        {
+            "cityname": "Астана",
+            "streetname": "Кулегин",
+            "housenumber": 20,
+            "flatnumber": 1
+        }
+    ]
+}

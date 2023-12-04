@@ -1,0 +1,21 @@
+{
+    "Deliveryuser": [
+        {
+            "deliveryfirstname": "Нұрайлым",
+            "deliverysurname" :"Жанбырбай",
+            "telephonenumber" :"87078002664"
+        },
+
+        {
+            "deliveryfirstname": "Молдир",
+            "deliverysurname" :"Байжанова",
+            "telephonenumber" :"87078002664"
+        },
+
+        {
+            "deliveryfirstname": "Перизат",
+            "deliverysurname" :"Жумадил",
+            "telephonenumber" :"87078002664"
+        }
+    ]
+}

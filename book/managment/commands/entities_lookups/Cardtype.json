@@ -1,0 +1,19 @@
+{
+    "Cardtype": [
+        {
+            " cardtypename": "VISA"
+        },
+
+        {
+            "cardtypename": "MASTER CARTD"
+        },
+
+        {
+            "cardtypename": "МИР"
+        },
+
+        {
+            "cardtypename": "MAESTRO"
+        }
+    ]
+}

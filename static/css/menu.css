@@ -1,0 +1,137 @@
+:root{
+   --red:#e74c3c;
+   --black:#333;
+   --white:#fff;
+   --light-bg:#f5f5f5;
+   --light-color:#666;
+   --border:.1rem solid var(--light-color);
+   --box-shadow:0 .5rem 1rem rgba(0,0,0,.1);
+}
+
+section{
+   padding:2rem;
+   margin:0 auto;
+   max-width: 1200px;
+   background-color: black;
+}
+.header{
+  background-color:black;
+}
+
+
+.header-nav{
+  display: flex; /* v odin ryd*/
+  justify-content: space-between; /* элементы в разные стороны*/
+  align-items: flex-end; /*выравнивание концами*/
+}
+
+.header-down {
+   position: relative;
+
+}
+
+body{
+  font-family: 'Poppins', sans-serif;
+  color: #000;
+}
+
+.btn{
+   display: block;
+   width: 100%;
+   margin-top: 1rem;
+   border-radius: .5rem;
+   padding:1rem 3rem;
+   font-size: 2rem;
+   color:black;
+   background-color: var(--red);
+   cursor: pointer;
+   text-transform: capitalize;
+   text-align: center;
+}
+
+
+.btn:hover{
+   background-color:var(--black);
+}
+
+
+.header .flex{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   position: relative;
+}
+
+.header .flex .logo{
+   font-size: 2.5rem;
+   color:var(--black);
+}
+
+.header .flex .navbar a{
+   margin:0 1rem;
+   font-size: 2.2rem;
+   color:var(--black);
+}
+
+.header .flex .navbar a:hover{
+   text-decoration: underline;
+   color:var(--red);
+}
+
+.header .flex .icons div{
+   font-size: 2.5rem;
+   color:black;
+   cursor: pointer;
+   margin-left: 1.7rem;
+}
+
+.header .flex .icons div:hover{
+   color:var(--red);
+}
+
+.header .flex .icons div span{
+   font-size: 2rem;
+}
+
+#menu-btn{
+   display: none;
+}
+
+.sub-heading{
+  text-align: center;
+  color:var(--green);
+  font-size: 2rem;
+  padding-top: 1rem;
+}
+
+
+.heading{
+  text-align: center;
+  color:var(--black);
+  font-size: 3rem;
+  padding-bottom: 2rem;
+  text-transform: uppercase;
+}
+
+.qty{
+   border:var(--border);
+   border-radius: .5rem;
+   padding:1rem;
+   font-size: 1.8rem;
+   color:var(--black);
+   width: 8rem;
+}
+
+.menu .box-container .box form .qty{
+   width: 8rem;
+   border:var(--border);
+   padding:1rem;
+   margin-top: 1rem;
+   border-radius: .5rem;
+   font-size: 1.8rem;
+   color:var(--black);
+}
+
+
+
+

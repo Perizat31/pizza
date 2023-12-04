@@ -1,0 +1,24 @@
+{
+    "CustomerUser": [
+        {
+            "customfirstname": "Нұрайлым",
+            "customsurname" :"Жанбырбай",
+            "email":"zhumadilp@mai.ru",
+            "telephonenumber" :"87078002664"
+        },
+
+        {
+            "customfirstname": "Молдир",
+            "customsurname" :"Байжанова",
+            "email":"zhumadilp@mai.ru",
+            "telephonenumber" :"87078002664"
+        },
+
+        {
+            "customfirstname": "Перизат",
+            "customsurname" :"Жумадил",
+            "email":"zhumadilp@mai.ru",
+            "telephonenumber" :"87078002664"
+        }
+    ]
+}

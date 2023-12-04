@@ -1,0 +1,23 @@
+{% extends 'book/base.html' %}
+{% load static %}
+
+{% block content %}
+<link rel="stylesheet" type="text/css" href="/static/css/login.css">
+<div class="register_container">
+    <form method="POST" action="/account/login">
+        {% csrf_token %}
+        <div class="register_inputs_list">
+            <div class='login-icon'>    
+                <i class="login__icon fas fa-lock"></i>
+                <input class="register_input" type="text" name="username" placeholder="Ваш логин">
+                <input class="register_input" type="text" name="password" placeholder="Пароль">
+            </div>
+        
+            <input class="register_button" type="submit" value="Войти">
+            <div class="href">
+            <a href="/account/register">Регистрация</a>
+            </div>
+        </div>
+    </form>
+</div>
+{% endblock %}

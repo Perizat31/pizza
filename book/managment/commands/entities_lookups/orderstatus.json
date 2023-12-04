@@ -1,0 +1,19 @@
+{
+    "Orderstatus": [
+        {
+            " orderstatus": "Ожидает проверки"
+        },
+
+        {
+            "orderstatus": "Оплачивается"
+        },
+
+        {
+            "orderstatus": "Доставляется"
+        },
+
+        {
+            "orderstatus": "Отменен"
+        }
+    ]
+}
