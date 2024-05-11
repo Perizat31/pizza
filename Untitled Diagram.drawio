@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-05-11T10:14:55.396Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="fJ-TInseZ5MNECXhKvIr" version="24.4.0" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2024-05-11T15:20:46.973Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="L2IYFZjKn-ZJvzRcRLxV" version="24.4.0" type="github" pages="5">
   <diagram id="R2lEEEUBdFMjLlhIrx00" name="Page-1">
-    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
+    <mxGraphModel dx="2340" dy="1185" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -142,20 +142,28 @@
     </mxGraphModel>
   </diagram>
   <diagram id="c80kAJMGOzvCrTh4UVqf" name="Page-3">
-    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1440" dy="729" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="no8vEUzsc8mPn2TzJAWN-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="cre0S1uw44uX-cIoa6D_-1" target="no8vEUzsc8mPn2TzJAWN-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="cre0S1uw44uX-cIoa6D_-1" value="Админ" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
           <mxGeometry x="10" y="120" width="50" height="80" as="geometry" />
         </mxCell>
+        <mxCell id="no8vEUzsc8mPn2TzJAWN-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" target="cre0S1uw44uX-cIoa6D_-10">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="220" y="345" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="cre0S1uw44uX-cIoa6D_-2" value="Сатушы" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
-          <mxGeometry x="180" y="300" width="50" height="80" as="geometry" />
+          <mxGeometry x="160" y="303" width="50" height="80" as="geometry" />
         </mxCell>
         <mxCell id="cre0S1uw44uX-cIoa6D_-3" value="Тұтынушы" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
           <mxGeometry x="380" y="110" width="50" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="cre0S1uw44uX-cIoa6D_-4" value="Қолданушыларды қосу" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="cre0S1uw44uX-cIoa6D_-4" value="Қолданушыларды қосу/өшіру" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="110" y="101" width="110" height="40" as="geometry" />
         </mxCell>
         <mxCell id="cre0S1uw44uX-cIoa6D_-5" value="Базаны қадағалау" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
@@ -164,7 +172,7 @@
         <mxCell id="cre0S1uw44uX-cIoa6D_-6" value="Аутентификация" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="510" y="80" width="120" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="cre0S1uw44uX-cIoa6D_-7" value="Себетке қосу" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="cre0S1uw44uX-cIoa6D_-7" value="Себетке қосу/жою" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="510" y="130" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="cre0S1uw44uX-cIoa6D_-8" value="Тауарларды қарау/сатып алу" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
@@ -173,11 +181,11 @@
         <mxCell id="cre0S1uw44uX-cIoa6D_-9" value="Іздеу" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="510" y="250" width="120" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="cre0S1uw44uX-cIoa6D_-10" value="Тапсырысты орындау" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="312" y="295" width="120" height="40" as="geometry" />
+        <mxCell id="no8vEUzsc8mPn2TzJAWN-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="cre0S1uw44uX-cIoa6D_-10" target="cre0S1uw44uX-cIoa6D_-42">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="cre0S1uw44uX-cIoa6D_-11" value="Тауарларды қосу" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="314" y="369" width="120" height="40" as="geometry" />
+        <mxCell id="cre0S1uw44uX-cIoa6D_-10" value="Тапсырысты орындау" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="259" y="310" width="140" height="70" as="geometry" />
         </mxCell>
         <mxCell id="cre0S1uw44uX-cIoa6D_-23" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" target="cre0S1uw44uX-cIoa6D_-4" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -187,7 +195,7 @@
         </mxCell>
         <mxCell id="cre0S1uw44uX-cIoa6D_-24" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" target="cre0S1uw44uX-cIoa6D_-5" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="60" y="170" as="sourcePoint" />
+            <mxPoint x="60" y="160" as="sourcePoint" />
             <mxPoint x="110" y="120" as="targetPoint" />
           </mxGeometry>
         </mxCell>
@@ -213,18 +221,6 @@
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="410" y="160" as="sourcePoint" />
             <mxPoint x="460" y="110" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="cre0S1uw44uX-cIoa6D_-30" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="210" y="345" as="sourcePoint" />
-            <mxPoint x="310" y="315" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="cre0S1uw44uX-cIoa6D_-31" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="210" y="350" as="sourcePoint" />
-            <mxPoint x="310" y="390" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="cre0S1uw44uX-cIoa6D_-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" parent="1" source="cre0S1uw44uX-cIoa6D_-32" target="cre0S1uw44uX-cIoa6D_-9" edge="1">
@@ -256,47 +252,23 @@
         <mxCell id="cre0S1uw44uX-cIoa6D_-34" value="Төлем жасау" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="680" y="185" width="100" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="cre0S1uw44uX-cIoa6D_-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="cre0S1uw44uX-cIoa6D_-35" target="cre0S1uw44uX-cIoa6D_-7" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="cre0S1uw44uX-cIoa6D_-35" value="Себеттен жою&lt;span style=&quot;color: rgba(0, 0, 0, 0); font-family: monospace; font-size: 0px; text-align: start; text-wrap: nowrap;&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22%D0%A2%D3%A9%D0%BB%D0%B5%D0%BC%20%D0%B6%D0%B0%D1%81%D0%B0%D1%83%22%20style%3D%22rounded%3D1%3BwhiteSpace%3Dwrap%3Bhtml%3D1%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%22680%22%20y%3D%22185%22%20width%3D%22100%22%20height%3D%2230%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="679" y="130" width="100" height="30" as="geometry" />
-        </mxCell>
         <mxCell id="cre0S1uw44uX-cIoa6D_-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="cre0S1uw44uX-cIoa6D_-36" target="cre0S1uw44uX-cIoa6D_-6" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="cre0S1uw44uX-cIoa6D_-36" value="шығу" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="680" y="80" width="100" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="cre0S1uw44uX-cIoa6D_-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" target="cre0S1uw44uX-cIoa6D_-10" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="460" y="315" as="sourcePoint" />
-            <Array as="points">
-              <mxPoint x="470" y="315" />
-              <mxPoint x="470" y="315" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
         <mxCell id="cre0S1uw44uX-cIoa6D_-42" value="Жеткізу&lt;div&gt;Курьер&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="470" y="293" width="87" height="35" as="geometry" />
+          <mxGeometry x="462" y="315" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="cre0S1uw44uX-cIoa6D_-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="cre0S1uw44uX-cIoa6D_-43" target="cre0S1uw44uX-cIoa6D_-11" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="cre0S1uw44uX-cIoa6D_-43" value="Тауарларды жою" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="469" y="369" width="93" height="41" as="geometry" />
-        </mxCell>
-        <mxCell id="cre0S1uw44uX-cIoa6D_-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="cre0S1uw44uX-cIoa6D_-47" target="cre0S1uw44uX-cIoa6D_-4" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="cre0S1uw44uX-cIoa6D_-47" value="Қолданушыларды өшіру" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="265" y="101" width="110" height="40" as="geometry" />
+        <mxCell id="no8vEUzsc8mPn2TzJAWN-5" value="Тапсырысты растап, хабарлау" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="141" width="110" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
   <diagram id="KP5VngtDOVW0e5VEuhgI" name="Page-4">
-    <mxGraphModel dx="1440" dy="729" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -477,6 +449,14 @@
             <mxPoint x="450" y="600" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="W6TIQfBfmPMmBh6hAabB" name="Page-5">
+    <mxGraphModel dx="1248" dy="632" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
       </root>
     </mxGraphModel>
   </diagram>
